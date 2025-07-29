@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Attendance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Student Attendance</h1>
+
+    <table id="attendanceTable">
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Present</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Riya</td>
+            <td><input type="checkbox" class="attendance"></td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Amit</td>
+            <td><input type="checkbox" class="attendance">
+            </td>
+        <tr>
+            <td>103</td>
+            <td>Neha</td>
+            <td><input type="checkbox" class="attendance"></td>
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>Rahul</td>
+            <td><input type="checkbox" class="attendance"></td>
+        </tr>
+        <tr>
+            <td>105</td>
+            <td>Rudra</td>
+            <td><input type="checkbox" class="attendance"></td>
+        </tr>
+        <tr>
+            <td>106</td>
+            <td>kiran</td>
+            <td><input type="checkbox" class="attendance"></td>
+        </tr>
+        <tr>
+        <td>107</td>
+        <td>divya</td>
+        <td><input type="checkbox" class="attendance"></td>
+        </tr>
+        <tr>
+            <td>108</td>
+            <td>tanmay</td>
+            <td><input type="checkbox" class="attendance"></td>
+        </tr>
+    </table>
+
+    <button onclick="submitAttendance()">Submit Attendance</button>
+
+    <div id="result"></div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
